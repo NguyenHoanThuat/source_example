@@ -29,9 +29,6 @@ export default async function Home({ params: { lng } }: { params: ParamsType }) 
       })}
       <Client lng={lng} />
       <h1>{t('title')}</h1>
-      <Link href={`/${lng}/sessions`}>
-        sessions page
-      </Link>
     </>
   );
 }
